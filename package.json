@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "imgs to webp",
   "main": "lib/index.js",
-  "private": true,
   "scripts": {
     "dev": "rollup --config --watch",
     "build": "rollup --config --environment NODE_ENV:production"
