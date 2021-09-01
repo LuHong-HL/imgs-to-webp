@@ -1,6 +1,6 @@
 {
   "name": "imgs-to-webp",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "imgs to webp",
   "main": "lib/index.js",
   "scripts": {
@@ -23,7 +23,10 @@
     "url": "https://github.com/LuHong-HL/imgs-to-webp/issues"
   },
   "homepage": "https://github.com/LuHong-HL/imgs-to-webp#readme",
-  "dependencies": {},
+  "dependencies": {
+    "cwebp-bin": "^6.1.1",
+    "loader-utils": "^2.0.0"
+  },
   "devDependencies": {
     "@babel/core": "^7.15.0",
     "@babel/plugin-transform-runtime": "^7.15.0",
@@ -32,8 +35,6 @@
     "@rollup/plugin-babel": "^5.3.0",
     "@rollup/plugin-commonjs": "^20.0.0",
     "@rollup/plugin-node-resolve": "^13.0.4",
-    "cwebp-bin": "^6.1.1",
-    "loader-utils": "^2.0.0",
     "rollup": "^2.56.3"
   }
 }
